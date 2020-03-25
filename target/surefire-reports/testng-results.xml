@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[this is a log]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1435" started-at="2020-03-25T14:47:01Z" finished-at="2020-03-25T14:47:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1435" started-at="2020-03-25T14:47:01Z" finished-at="2020-03-25T14:47:03Z">
+      <class name="com.zhaoguom.employeeTest.EmployeeServiceTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.zhaoguom.employeeTest.EmployeeServiceTest@3b084709]" name="beforeClass" is-config="true" duration-ms="195" started-at="2020-03-25T14:47:01Z" finished-at="2020-03-25T14:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testCreateEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhaoguom.employeeTest.EmployeeServiceTest@3b084709]" name="testCreateEmployee" duration-ms="1222" started-at="2020-03-25T14:47:02Z" data-provider="createEmployeeData" finished-at="2020-03-25T14:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zhaoguo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zhaoguo.ma@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[this is a log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateEmployee -->
+      </class> <!-- com.zhaoguom.employeeTest.EmployeeServiceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
